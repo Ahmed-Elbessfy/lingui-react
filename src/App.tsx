@@ -1,4 +1,4 @@
-import { Trans, t } from "@lingui/macro";
+import { Trans, t, Plural } from "@lingui/macro";
 import { i18n, MessageDescriptor } from "@lingui/core";
 import { msg } from "@lingui/macro";
 import { useState } from "react";
@@ -14,6 +14,8 @@ function App() {
   };
 
   const [currentLanguage, setCurrentLanguage] = useState<string>("en");
+  const [numUsers, setNumUsers] = useState<number>(0);
+
   return (
     <div dir={currentLanguage === "ar" ? "rtl" : "ltr"}>
       <h1>Internationalization (i18n) with Lingui</h1>
@@ -79,7 +81,7 @@ function App() {
         </p>
       </div> */}
 
-      <div>
+      {/* <div>
         <p className="heading">Context </p>
         <p>
           <Trans context="developer">
@@ -91,6 +93,34 @@ function App() {
             <span>Bug</span> is an magnificent creature
           </Trans>
         </p>
+      </div> */}
+
+      <div>
+        <p className="heading">
+          Pluralization
+          <span>=&gt;</span>
+        </p>
+        <input
+          type="number"
+          value={numUsers}
+          min={0}
+          onChange={(e) => setNumUsers(parseInt(e.target.value))}
+        />
+        <br />
+        <Plural
+          id="msg.plurals"
+          value={numUsers}
+          one={
+            <span>
+              Only <strong>one</strong> user is using this library!
+            </span>
+          }
+          other={
+            <span>
+              <strong>{numUsers}</strong> users are using this library!
+            </span>
+          }
+        />
       </div>
     </div>
   );

@@ -1,4 +1,15 @@
 {
+  "msg.plurals": {
+    "translation": "{numUsers, plural, zero {<0>لا يوجد مستخدمين في المكتبة!</0>} one {<0>يوجد <1>مستخدم واحد</1> فقط في المكتبة!</0>} two {<0>يوجد مستخدمين فقط في المكتبة </0>} few {<0>يوجد بضع مستخدمين في المكتبة!</0>} many {<2>يوجد عدد<3> {numUsers}</3> مستخدمين في المكتبة!</2>}}",
+    "message": "{numUsers, plural, one {<0>Only <1>one</1> user is using this library!</0>} other {<2><3>{numUsers}</3> users are using this library!</2>}}",
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx",
+        110
+      ]
+    ]
+  },
   "N5O6pv": {
     "translation": "<0>Bug</0>  هو مخلوق رائع",
     "message": "<0>Bug</0> is an magnificent creature",
@@ -9,7 +20,8 @@
         "src/App.tsx",
         90
       ]
-    ]
+    ],
+    "obsolete": true
   },
   "0pmeOf": {
     "translation": "<0>Bug</0> هو خبر سيء",
@@ -21,7 +33,8 @@
         "src/App.tsx",
         85
       ]
-    ]
+    ],
+    "obsolete": true
   },
   "LqRVps": {
     "translation": "تفاح",
