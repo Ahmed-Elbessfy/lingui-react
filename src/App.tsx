@@ -65,7 +65,7 @@ function App() {
         </div>
       </div> */}
 
-      <div>
+      {/* <div>
         <p className="heading">
           Interpolation <span>=&gt;</span>
         </p>
@@ -75,6 +75,20 @@ function App() {
         <p>
           <Trans>
             This talk is provided by : <strong>{"Squadio"}</strong>
+          </Trans>
+        </p>
+      </div> */}
+
+      <div>
+        <p className="heading">Context </p>
+        <p>
+          <Trans context="developer">
+            <span>Bug</span> is bad news
+          </Trans>
+        </p>
+        <p>
+          <Trans context="entomologist">
+            <span>Bug</span> is an magnificent creature
           </Trans>
         </p>
       </div>

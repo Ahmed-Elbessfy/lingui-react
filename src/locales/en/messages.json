@@ -1,4 +1,28 @@
 {
+  "N5O6pv": {
+    "translation": "<0>Bug</0> is an magnificent creature",
+    "message": "<0>Bug</0> is an magnificent creature",
+    "context": "entomologist",
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx",
+        90
+      ]
+    ]
+  },
+  "0pmeOf": {
+    "translation": "<0>Bug</0> is bad news",
+    "message": "<0>Bug</0> is bad news",
+    "context": "developer",
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx",
+        85
+      ]
+    ]
+  },
   "LqRVps": {
     "translation": "apple",
     "message": "apple",
@@ -92,7 +116,8 @@
         "src/App.tsx",
         76
       ]
-    ]
+    ],
+    "obsolete": true
   },
   "QJrx/t": {
     "translation": "This talk is provided by : Squadio",
@@ -103,6 +128,7 @@
         "src/App.tsx",
         73
       ]
-    ]
+    ],
+    "obsolete": true
   }
 }
