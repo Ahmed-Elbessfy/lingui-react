@@ -34,7 +34,7 @@ function App() {
       </select>
 
       <hr />
-      {/* <div>
+      <div>
         <p className="heading">
           Basic case <span>=&gt;</span>
         </p>
@@ -44,7 +44,7 @@ function App() {
         <p>
           <Trans>Free Palestine</Trans>
         </p>
-      </div> */}
+      </div>
 
       {/* <div>
         <p className="heading">
@@ -143,7 +143,7 @@ function App() {
         />
       </div> */}
 
-      <div>
+      {/* <div>
         <p className="heading">
           Formatting numbers, currency & time
           <span>=&gt;</span>
@@ -172,7 +172,7 @@ function App() {
             })}
           </Trans>
         </p>
-      </div>
+      </div> */}
     </div>
   );
 }
