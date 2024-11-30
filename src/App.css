@@ -1,0 +1,82 @@
+#root {
+  max-width: 1280px;
+  width: 80%;
+  min-width: 25rem;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  border: thin solid rgba(255, 255, 255, 0.87);
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+* {
+  font-size: 1.25rem;
+}
+
+select {
+  /*styling*/
+  background-color: rgba(255, 255, 255, 0.87);
+  color: #242424;
+  border: thin solid #242424;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.5em 4.5em 0.5em 1em;
+  margin-block-end: 3rem;
+  /*reset*/
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, #242424 50%),
+    linear-gradient(135deg, #242424 50%, transparent 50%),
+    linear-gradient(to right, #242424, #242424);
+  background-position: calc(100% - 25px) calc(1em), calc(100% - 20px) calc(1em),
+    calc(100% - 2.5em) 0.35em;
+  background-size: 5px 5px, 5px 5px, 1px 1.5em;
+  background-repeat: no-repeat;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+
+  /*  */
+  option {
+    font-size: 1rem;
+    padding: 8px 12px;
+  }
+}
+
+select:focus {
+  background-image: linear-gradient(45deg, #242424 50%, transparent 50%),
+    linear-gradient(135deg, transparent 50%, #242424 50%),
+    linear-gradient(to right, #242424, #242424);
+  background-position: calc(100% - 20px) calc(1em - 2px),
+    calc(100% - 25px) calc(1em - 2px), calc(100% - 2.5em) 0.35em;
+  background-size: 5px 5px, 5px 5px, 1px 1.5em;
+  background-repeat: no-repeat;
+  border-color: green;
+  outline: 0;
+}
+
+.heading {
+  font-size: 1.4rem;
+
+  span {
+    display: block;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+  }
+}
+
+textarea {
+  font-size: 75%;
+  width: 20rem;
+}
