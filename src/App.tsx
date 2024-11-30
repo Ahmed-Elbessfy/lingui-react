@@ -1,7 +1,8 @@
-import { Trans } from "@lingui/macro";
-import "./App.css";
-import { i18n } from "@lingui/core";
+import { Trans, t } from "@lingui/macro";
+import { i18n, MessageDescriptor } from "@lingui/core";
+import { msg } from "@lingui/macro";
 import { useState } from "react";
+import "./App.css";
 
 function App() {
   const dynamicActivate = async (lang: string) => {
@@ -30,7 +31,7 @@ function App() {
       </select>
 
       <hr />
-      <div>
+      {/* <div>
         <p className="heading">
           Basic case <span>=&gt;</span>
         </p>
@@ -40,6 +41,28 @@ function App() {
         <p>
           <Trans>Free Palestine</Trans>
         </p>
+      </div> */}
+
+      <div>
+        <p className="heading">
+          Methods to define text for translation Interpolation
+          <span>=&gt;</span>
+        </p>
+        <p>
+          <Trans id="msg.docs">
+            Read the <a href="https://lingui.dev">documentation</a>
+            for more info.
+          </Trans>
+        </p>
+        <img src="./logo.png" alt={t`Logo of Lingui Project`} />
+        <div>
+          <p>Lazy Translations: (Dynamic Translation)</p>
+          {[msg`orange`, msg`apple`, msg`banana`].map(
+            (fruit: MessageDescriptor, i: number) => (
+              <p key={i}>{i18n._(fruit)}</p>
+            )
+          )}
+        </div>
       </div>
     </div>
   );

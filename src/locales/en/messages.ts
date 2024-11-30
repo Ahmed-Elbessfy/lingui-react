@@ -1,1 +1,1 @@
-/*eslint-disable*/import type{Messages}from"@lingui/core";export const messages=JSON.parse("{\"PIIGAr\":\"Free Palestine\",\"mY42CM\":\"Hello World\"}")as Messages;
+/*eslint-disable*/import type{Messages}from"@lingui/core";export const messages=JSON.parse("{\"LqRVps\":\"apple\",\"pgevoc\":\"banana\",\"PIIGAr\":\"Free Palestine\",\"mY42CM\":\"Hello World\",\"i/LKw+\":\"Logo of Lingui Project\",\"3H6fCs\":\"orange\",\"msg.docs\":\"Read the <0>documentation</0>for more info.\"}")as Messages;

@@ -1,4 +1,26 @@
 {
+  "LqRVps": {
+    "translation": "تفاح",
+    "message": "apple",
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx",
+        60
+      ]
+    ]
+  },
+  "pgevoc": {
+    "translation": "موز",
+    "message": "banana",
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx",
+        60
+      ]
+    ]
+  },
   "PIIGAr": {
     "translation": "فلسطين حرة",
     "message": "Free Palestine",
@@ -8,7 +30,8 @@
         "src/App.tsx",
         41
       ]
-    ]
+    ],
+    "obsolete": true
   },
   "mY42CM": {
     "translation": "مرحبا أيها العالم",
@@ -18,6 +41,40 @@
       [
         "src/App.tsx",
         38
+      ]
+    ],
+    "obsolete": true
+  },
+  "i/LKw+": {
+    "translation": "شارة مشروع Lingui",
+    "message": "Logo of Lingui Project",
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx",
+        57
+      ]
+    ]
+  },
+  "3H6fCs": {
+    "translation": "برتقال",
+    "message": "orange",
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx",
+        60
+      ]
+    ]
+  },
+  "msg.docs": {
+    "translation": "برجاء قراءة <0>دليل المستخدم</0> للمزيد من المعلومات.",
+    "message": "Read the <0>documentation</0>for more info.",
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx",
+        52
       ]
     ]
   }

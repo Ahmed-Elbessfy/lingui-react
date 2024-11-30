@@ -1,1 +1,1 @@
-/*eslint-disable*/import type{Messages}from"@lingui/core";export const messages=JSON.parse("{\"PIIGAr\":\"فلسطين حرة\",\"mY42CM\":\"مرحبا أيها العالم\"}")as Messages;
+/*eslint-disable*/import type{Messages}from"@lingui/core";export const messages=JSON.parse("{\"LqRVps\":\"تفاح\",\"pgevoc\":\"موز\",\"PIIGAr\":\"فلسطين حرة\",\"mY42CM\":\"مرحبا أيها العالم\",\"i/LKw+\":\"شارة مشروع Lingui\",\"3H6fCs\":\"برتقال\",\"msg.docs\":\"برجاء قراءة <0>دليل المستخدم</0> للمزيد من المعلومات.\"}")as Messages;
