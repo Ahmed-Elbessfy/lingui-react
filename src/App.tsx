@@ -1,4 +1,4 @@
-import { Trans, t, Plural } from "@lingui/macro";
+import { Trans, t, Plural, Select } from "@lingui/macro";
 import { i18n, MessageDescriptor } from "@lingui/core";
 import { msg } from "@lingui/macro";
 import { useState } from "react";
@@ -15,6 +15,7 @@ function App() {
 
   const [currentLanguage, setCurrentLanguage] = useState<string>("en");
   const [numUsers, setNumUsers] = useState<number>(0);
+  const [gender, setGender] = useState<string>("");
 
   return (
     <div dir={currentLanguage === "ar" ? "rtl" : "ltr"}>
@@ -95,7 +96,7 @@ function App() {
         </p>
       </div> */}
 
-      <div>
+      {/* <div>
         <p className="heading">
           Pluralization
           <span>=&gt;</span>
@@ -120,6 +121,25 @@ function App() {
               <strong>{numUsers}</strong> users are using this library!
             </span>
           }
+        />
+      </div> */}
+
+      <div>
+        <p className="heading">
+          Custom Select
+          <span>=&gt;</span>
+        </p>
+        <select onChange={(e) => setGender(e.target.value)} value={gender}>
+          {[`male`, `female`].map((g) => (
+            <option value={g}>{g}</option>
+          ))}
+        </select>
+        <Select
+          id="user.gender"
+          value={gender}
+          _male={<p>He responded to the message</p>}
+          _female={<p>She responded to the message</p>}
+          other={<p>No response</p>}
         />
       </div>
     </div>
