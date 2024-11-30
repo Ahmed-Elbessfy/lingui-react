@@ -124,7 +124,7 @@ function App() {
         />
       </div> */}
 
-      <div>
+      {/* <div>
         <p className="heading">
           Custom Select
           <span>=&gt;</span>
@@ -141,6 +141,37 @@ function App() {
           _female={<p>She responded to the message</p>}
           other={<p>No response</p>}
         />
+      </div> */}
+
+      <div>
+        <p className="heading">
+          Formatting numbers, currency & time
+          <span>=&gt;</span>
+        </p>
+
+        <p>
+          <Trans>{i18n.number(12345.6789, { minimumFractionDigits: 3 })}</Trans>
+        </p>
+        <p>
+          <Trans>{i18n.number(12345.6789, { maximumFractionDigits: 1 })}</Trans>
+        </p>
+        <p>
+          <Trans>
+            {i18n.number(123344556, { style: "currency", currency: "USD" })}
+          </Trans>
+        </p>
+        <p>
+          <Trans>{i18n.date(new Date())}</Trans>
+        </p>
+        <p>
+          <Trans>
+            {i18n.date(new Date(), {
+              hour: "numeric",
+              minute: "numeric",
+              second: "numeric",
+            })}
+          </Trans>
+        </p>
       </div>
     </div>
   );

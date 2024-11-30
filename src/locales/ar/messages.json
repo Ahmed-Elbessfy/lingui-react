@@ -1,4 +1,31 @@
 {
+  "J/hVSQ": {
+    "translation": "{0}",
+    "message": "{0}",
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx",
+        153
+      ],
+      [
+        "src/App.tsx",
+        156
+      ],
+      [
+        "src/App.tsx",
+        159
+      ],
+      [
+        "src/App.tsx",
+        164
+      ],
+      [
+        "src/App.tsx",
+        167
+      ]
+    ]
+  },
   "user.gender": {
     "translation": "{gender, select, male {<0>قام بالرد على الرسالة</0>} female {<1>قامت بالرد على الرسالة</1>} other {<2>ﻻ يوجد رد</2>}}",
     "message": "{gender, select, male {<0>He responded to the message</0>} female {<1>She responded to the message</1>} other {<2>No response</2>}}",
@@ -8,7 +35,8 @@
         "src/App.tsx",
         137
       ]
-    ]
+    ],
+    "obsolete": true
   },
   "msg.plurals": {
     "translation": "{numUsers, plural, zero {<0>لا يوجد مستخدمين في المكتبة!</0>} one {<0>يوجد <1>مستخدم واحد</1> فقط في المكتبة!</0>} two {<0>يوجد مستخدمين فقط في المكتبة </0>} few {<0>يوجد بضع مستخدمين في المكتبة!</0>} many {<2>يوجد عدد<3> {numUsers}</3> مستخدمين في المكتبة!</2>}}",
