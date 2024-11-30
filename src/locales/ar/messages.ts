@@ -1,1 +1,1 @@
-/*eslint-disable*/import type{Messages}from"@lingui/core";export const messages=JSON.parse("{}")as Messages;
+/*eslint-disable*/import type{Messages}from"@lingui/core";export const messages=JSON.parse("{\"PIIGAr\":\"فلسطين حرة\",\"mY42CM\":\"مرحبا أيها العالم\"}")as Messages;

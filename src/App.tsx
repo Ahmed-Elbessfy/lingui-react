@@ -1,3 +1,4 @@
+import { Trans } from "@lingui/macro";
 import "./App.css";
 import { i18n } from "@lingui/core";
 import { useState } from "react";
@@ -29,6 +30,17 @@ function App() {
       </select>
 
       <hr />
+      <div>
+        <p className="heading">
+          Basic case <span>=&gt;</span>
+        </p>
+        <p>
+          <Trans>Hello World</Trans>
+        </p>
+        <p>
+          <Trans>Free Palestine</Trans>
+        </p>
+      </div>
     </div>
   );
 }

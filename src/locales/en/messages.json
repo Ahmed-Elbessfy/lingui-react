@@ -1,1 +1,24 @@
-{}
+{
+  "PIIGAr": {
+    "translation": "Free Palestine",
+    "message": "Free Palestine",
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx",
+        41
+      ]
+    ]
+  },
+  "mY42CM": {
+    "translation": "Hello World",
+    "message": "Hello World",
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx",
+        38
+      ]
+    ]
+  }
+}
