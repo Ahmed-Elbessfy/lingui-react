@@ -43,7 +43,7 @@ function App() {
         </p>
       </div> */}
 
-      <div>
+      {/* <div>
         <p className="heading">
           Methods to define text for translation Interpolation
           <span>=&gt;</span>
@@ -63,6 +63,20 @@ function App() {
             )
           )}
         </div>
+      </div> */}
+
+      <div>
+        <p className="heading">
+          Interpolation <span>=&gt;</span>
+        </p>
+        <p>
+          <Trans>This talk is provided by : {"Squadio"}</Trans>
+        </p>
+        <p>
+          <Trans>
+            This talk is provided by : <strong>{"Squadio"}</strong>
+          </Trans>
+        </p>
       </div>
     </div>
   );

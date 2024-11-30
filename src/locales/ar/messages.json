@@ -8,7 +8,8 @@
         "src/App.tsx",
         60
       ]
-    ]
+    ],
+    "obsolete": true
   },
   "pgevoc": {
     "translation": "موز",
@@ -19,7 +20,8 @@
         "src/App.tsx",
         60
       ]
-    ]
+    ],
+    "obsolete": true
   },
   "PIIGAr": {
     "translation": "فلسطين حرة",
@@ -54,7 +56,8 @@
         "src/App.tsx",
         57
       ]
-    ]
+    ],
+    "obsolete": true
   },
   "3H6fCs": {
     "translation": "برتقال",
@@ -65,7 +68,8 @@
         "src/App.tsx",
         60
       ]
-    ]
+    ],
+    "obsolete": true
   },
   "msg.docs": {
     "translation": "برجاء قراءة <0>دليل المستخدم</0> للمزيد من المعلومات.",
@@ -75,6 +79,29 @@
       [
         "src/App.tsx",
         52
+      ]
+    ],
+    "obsolete": true
+  },
+  "o19Wex": {
+    "translation": "هذه المحاضرة مقدمة من  : <0>Squadio</0>",
+    "message": "This talk is provided by : <0>Squadio</0>",
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx",
+        76
+      ]
+    ]
+  },
+  "QJrx/t": {
+    "translation": "هذه المحاضرة مقدمة من  : Squadio",
+    "message": "This talk is provided by : Squadio",
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx",
+        73
       ]
     ]
   }
