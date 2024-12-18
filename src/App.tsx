@@ -73,11 +73,11 @@ function App() {
           Interpolation <span>=&gt;</span>
         </p>
         <p>
-          <Trans>This talk is provided by : {"Squadio"}</Trans>
+          <Trans>This talk is provided by : {"EgyptJS"}</Trans>
         </p>
         <p>
           <Trans>
-            This talk is provided by : <strong>{"Squadio"}</strong>
+            This talk is provided by : <strong>{"EgyptJS"}</strong>
           </Trans>
         </p>
       </div> */}

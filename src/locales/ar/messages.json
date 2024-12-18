@@ -35,8 +35,7 @@
         "src/App.tsx",
         137
       ]
-    ],
-    "obsolete": true
+    ]
   },
   "msg.plurals": {
     "translation": "{numUsers, plural, zero {<0>لا يوجد مستخدمين في المكتبة!</0>} one {<0>يوجد <1>مستخدم واحد</1> فقط في المكتبة!</0>} two {<0>يوجد مستخدمين فقط في المكتبة </0>} few {<0>يوجد بضع مستخدمين في المكتبة!</0>} many {<2>يوجد عدد<3> {numUsers}</3> مستخدمين في المكتبة!</2>}}",
@@ -45,10 +44,9 @@
     "origin": [
       [
         "src/App.tsx",
-        110
+        111
       ]
-    ],
-    "obsolete": true
+    ]
   },
   "N5O6pv": {
     "translation": "<0>Bug</0>  هو مخلوق رائع",
@@ -58,10 +56,9 @@
     "origin": [
       [
         "src/App.tsx",
-        90
+        93
       ]
-    ],
-    "obsolete": true
+    ]
   },
   "0pmeOf": {
     "translation": "<0>Bug</0> هو خبر سيء",
@@ -71,10 +68,9 @@
     "origin": [
       [
         "src/App.tsx",
-        85
+        88
       ]
-    ],
-    "obsolete": true
+    ]
   },
   "LqRVps": {
     "translation": "تفاح",
@@ -83,10 +79,9 @@
     "origin": [
       [
         "src/App.tsx",
-        60
+        63
       ]
-    ],
-    "obsolete": true
+    ]
   },
   "pgevoc": {
     "translation": "موز",
@@ -95,10 +90,9 @@
     "origin": [
       [
         "src/App.tsx",
-        60
+        63
       ]
-    ],
-    "obsolete": true
+    ]
   },
   "PIIGAr": {
     "translation": "فلسطين حرة",
@@ -107,10 +101,9 @@
     "origin": [
       [
         "src/App.tsx",
-        41
+        45
       ]
-    ],
-    "obsolete": true
+    ]
   },
   "mY42CM": {
     "translation": "مرحبا أيها العالم",
@@ -119,10 +112,9 @@
     "origin": [
       [
         "src/App.tsx",
-        38
+        42
       ]
-    ],
-    "obsolete": true
+    ]
   },
   "i/LKw+": {
     "translation": "شارة مشروع Lingui",
@@ -131,10 +123,9 @@
     "origin": [
       [
         "src/App.tsx",
-        57
+        60
       ]
-    ],
-    "obsolete": true
+    ]
   },
   "3H6fCs": {
     "translation": "برتقال",
@@ -143,10 +134,9 @@
     "origin": [
       [
         "src/App.tsx",
-        60
+        63
       ]
-    ],
-    "obsolete": true
+    ]
   },
   "msg.docs": {
     "translation": "برجاء قراءة <0>دليل المستخدم</0> للمزيد من المعلومات.",
@@ -155,33 +145,30 @@
     "origin": [
       [
         "src/App.tsx",
-        52
+        55
       ]
-    ],
-    "obsolete": true
+    ]
   },
-  "o19Wex": {
-    "translation": "هذه المحاضرة مقدمة من  : <0>Squadio</0>",
-    "message": "This talk is provided by : <0>Squadio</0>",
+  "u2DATJ": {
+    "translation": "هذه المحاضرة مقدمة من  : <0>EgyptJS</0>",
+    "message": "This talk is provided by : <0>EgyptJS</0>",
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx",
+        79
+      ]
+    ]
+  },
+  "24Yv7z": {
+    "translation": "هذه المحاضرة مقدمة من  : EgyptJS",
+    "message": "This talk is provided by : EgyptJS",
     "comments": [],
     "origin": [
       [
         "src/App.tsx",
         76
       ]
-    ],
-    "obsolete": true
-  },
-  "QJrx/t": {
-    "translation": "هذه المحاضرة مقدمة من  : Squadio",
-    "message": "This talk is provided by : Squadio",
-    "comments": [],
-    "origin": [
-      [
-        "src/App.tsx",
-        73
-      ]
-    ],
-    "obsolete": true
+    ]
   }
 }
